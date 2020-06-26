@@ -1,10 +1,10 @@
 <template>
-  <div class="securityresearch">
+  <div class="skill">
       <div class="title">
         <el-divider content-position="center">个人技能</el-divider>
         <p><el-tag>vue全家桶</el-tag><el-tag >javascript</el-tag><el-tag>css</el-tag></p>
       </div>
-      <div class="skill">
+      <div class="skills">
         <span class='vue'>Vue</span>
         <span class='js'>JS</span>
         <span class='css'>CSS</span>
@@ -16,16 +16,16 @@
   </div>
 </template>
 <style>
-  .securityresearch .title p .el-tag{
+  .skill .title p .el-tag{
     margin: 0px 5px;
     cursor: pointer;
   }
-  .securityresearch .box-card .text{
+  .skill .box-card .text{
     text-align: left;
   }
 </style>
 <style scoped>
-  .securityresearch{
+  .skill{
     margin-top: 150px;
     font-size: 14px;
     padding: 0px 100px;
@@ -40,11 +40,11 @@
     font-size: 20px;
     color: #8c8888;
   }
-  .skill{
+  .skills{
     margin: 100px 0px;
     position: relative;
   }
-  .skill span{
+  .skills span{
     display: inline-block;
     color: #fff;
     border-radius: 50%;
@@ -127,6 +127,6 @@
 </style>
 <script>
 export default {
-  name: 'SecurityResearch'
+  name: 'skill'
 }
 </script>

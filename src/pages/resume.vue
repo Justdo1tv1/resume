@@ -1,5 +1,5 @@
 <template>
-  <div class="aboutus">
+  <div class="resume">
     <div class="title">
       <el-divider content-position="center">个人简介</el-divider>
       <p><el-tag>xxxx大学</el-tag><el-tag>本科</el-tag></p>
@@ -29,30 +29,30 @@
 </template>
 <script>
 export default {
-  name: 'AboutUs'
+  name: 'resume'
 }
 </script>
 <style>
-  .aboutus .grid-content.line{
+  .resume .grid-content.line{
     border-right: 1px solid #ddd;
     height: 150px;
   }
-  .aboutus .el-card__header{
+  .resume .el-card__header{
     background: #545c64;
   }
-  .aboutus .el-card__body{
+  .resume .el-card__body{
     padding: 50px 20px;
   }
-  .aboutus .el-timeline-item__wrapper{
+  .resume .el-timeline-item__wrapper{
     top: -8px;
   }
-  .aboutus .title p .el-tag{
+  .resume .title p .el-tag{
     margin: 0px 5px;
     cursor: pointer;
   }
 </style>
 <style scoped>
-  .aboutus{
+  .resume{
     margin-top: 150px;
     font-size: 14px;
     text-align: left;

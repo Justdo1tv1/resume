@@ -1,5 +1,5 @@
 <template>
-  <div class='homepage'>
+  <div class='home'>
       <div class="content">
           <div class='box' id='box1'></div>
           <div class='box' id='box2'> </div>
@@ -10,7 +10,7 @@
   </div>
 </template>
 <style scoped>
-  .homepage{
+  .home{
     height: 1440px;
     background: url(../assets/fighting.jpg) no-repeat;
     background-size: 100% 120%;
@@ -77,7 +77,7 @@
 </style>
 <script>
 export default {
-  name: 'Home',
+  name: 'home',
   data () {
     return {
       sign: '专注前端开发,努力变得更强  '

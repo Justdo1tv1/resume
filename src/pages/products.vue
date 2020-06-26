@@ -1,5 +1,5 @@
 <template>
-  <div class="productpage">
+  <div class="product">
     <div class="title">
       <el-divider content-position="center">工作经历</el-divider>
       <p><el-tag >某司</el-tag><el-tag>某某司</el-tag></p>
@@ -108,7 +108,7 @@
 
 <script>
 export default {
-  name: 'Products',
+  name: 'product',
   data () {
     return {
       drawer: false,
@@ -185,11 +185,11 @@ export default {
   }
 </style>
 <style scoped>
-  .productpage{
+  .product{
       margin-top: 150px;
     padding: 0px 100px 0px 100px;
   }
-  .productpage .project{
+  .product .project{
     display: flex;
     justify-content:space-around;
   }

@@ -26,10 +26,10 @@ export default new Router({
                     import ('../pages/skill.vue')
             },
             {
-                path: '/ex',
-                name: 'experience',
+                path: '/products',
+                name: 'products',
                 component: () =>
-                    import ('../pages/experience.vue')
+                    import ('../pages/products.vue')
             }
         ]
     }]

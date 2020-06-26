@@ -8,12 +8,13 @@
   @select="handleSelect"
   background-color="#545c64"
   text-color="#fff"
+  router="true"
   active-text-color="#ffd04b">
-  <p class="logo-title"><i class="el-icon-user"></i>JEmbrace</p>
-  <el-menu-item index="1"  style="margin-left:300px;">首页</el-menu-item>
-   <el-menu-item index="2">个人简介</el-menu-item>
-  <el-menu-item index="3">个人技能</el-menu-item>
-  <el-menu-item index="4">工作经历</el-menu-item>
+  <p class="logo-title"><i class="el-icon-user"></i>Be Batter</p>
+  <el-menu-item index="home"  style="margin-left:300px;">首页</el-menu-item>
+   <el-menu-item index="resume">个人简介</el-menu-item>
+  <el-menu-item index="skill">个人技能</el-menu-item>
+  <el-menu-item index="products">工作经历</el-menu-item>
 </el-menu>
   </div>
 </template>
@@ -29,6 +30,7 @@
     methods: {
       handleSelect(key, keyPath) {
         console.log(key, keyPath);
+
       }
     }
   }
